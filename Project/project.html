@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOTEL BOOKING</title>
+        <link rel="stylesheet" href="project.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </head>
+    <body style="background: linear-gradient(135deg,#f2f2f79d,#e5eaf1);">
+        <nav class="navbar navbar-dark bg-dark fixed-top ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><h2>HotelsTonight</h2></a>
+              <label>
+                <button  id="register" type="button" class="btn btn-light" ><a href="Register.html"  style="text-decoration:none ;">Register</a></button>
+                <button type="sign in" class="btn btn-light"><a href="Signin.html" style="text-decoration: none;">Sign In</a></button>
+              </label>
+              <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon" ></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" href="project.html"><b id="b1">HOME</b></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Project.html"><b id="b1">ABOUT</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b id="b1">OFFERS </b></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><b id="b1">NEWS</b></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><b id="b1">CONTACT</b></a>
+                      </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            </div>
+              <section>
+                <div class="div1">
+                  <h1 id="find">Find your next stay</h1>
+                  <h3 id="s1">Search low prices on hotels, homes and much more...</h3>
+                  <br><br><br><br>
+                </div>
+              </section>
+            <section class="booking"> 
+              <br>
+              <div class="container">
+                <form action="" class="form">
+                  <div class="input-group">
+                    <label for="destination" class="input-label">Destination</label>
+                    <input type="text"placeholder="Where are you going?"  class="input" id="destination">
+                  </div>
+                  <div class="input-group">
+                    <label for="check-in" class="input-label">Check in</label>
+                    <input type="date" class="input" id="check-in">
+                  </div>
+                  <div class="input-group">
+                    <label for="check-out" class="input-label">Check out</label>
+                    <input type="date" class="input" id="check-out">
+                  </div>
+                  <div class="input-group">
+                    <label for="Adults" class="input-label">Adults</label>
+                    <select class="options" id="adults">
+                    <option value="0">0</option>
+                    <option value="0">1</option>
+                    <option value="0">2</option>
+                    <option value="0">3</option>
+                    <option value="0">4</option>
+                    </select>
+                  </div>
+                  <div class="input-group">
+                    <label for="Children" class="input-label">Children</label>
+                    <select class="options" id="adults">
+                    <option value="0">0</option>
+                    <option value="0">1</option>
+                    <option value="0">2</option>
+                    <option value="0">3</option>
+                    <option value="0">4</option>
+                    </select>
+                  </div>
+                  <button type="submit"  class="btn btn-warning"><h3>Search
+                  </h3>
+                  </button>
+                </form>
+              </div>
+            </section>
+            <div class="div12" style="background-color: rgb(248, 250, 252);">
+            <section class="hotels-body">
+              <div class="hotel-link">
+                <h2 class="selection-h"><b>We do more than just hotels...</b></h2>
+              </div>
+                <br>
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <a href="project.html"><img style="border:solid rgb(117, 10, 55);" src="/images/hotels.jpeg"></a>
+                        <h3 style="color: black;"><p>Hotels</p></h3> 
+                    </div>
+                    <div class="col">
+                      <a href="project.html" ><img style="border:solid rgb(117,10,55);" src="/images/Appartment.jpeg" alt=""></a>
+                          <h3 style="color: black;"><p>Appartments</p></h3>
+                    </div>
+                    <div class="col">
+                      <a href="project.html"><img style="border:solid rgb(117,10,55);" src="/images/resorts.jpeg" alt=""></a>
+                      <h3 style="color:black ;"><p>Resort</p></h3>
+                    </div>
+                    <div class="col">
+                      <a href="project.html"><img style="border:solid rgb(117,10,55);" src="/images/villas.jpeg" alt=""></a>
+                      <h3 style="color:black ;"><p>Villas</p></h3>
+                    </div>
+                    <div class="col">
+                      <a href="project.html"><img style="border:solid rgb(117,10,55);" src="/images/cabin.jpeg" alt=""></a>
+                      <h3 style="color:black ;"><p>Cabins</p></h3>
+                    </div>
+                    <div class="col">
+                      <a href="project.html"><img style="border:solid rgb(117,10,55);" src="/images/cottages.jpeg" alt=""></a>
+                      <h3 style="color:black ;"><p>Cottages</p></h3>
+                    </div>
+                  </div>
+            </div>
+            </section>
+          </div>
+            <br><br><br>
+            <section class="explore">
+              <div class="explore-link">
+                <h5 class="explore-head"><b>Explore India</b></h5>
+              </div>
+                <br>
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                    <a href="project.html"><img style="border:solid rgb(26,1,114);" src="/images/bangala.webp" class="img-thumbnail" alt="..."></a>
+                    <h4>Bangalore</h4>
+                    </div>
+                    <div class="col">
+                    <a href="project.html"><img style="border:solid rgb(26, 1, 114) ;" src="/images/GOA.webp" class="img-thumbnail" alt="..."></a>
+                    <h4>Goa</h4>
+                    </div>
+                    <div class="col">
+                    <a href="project.html"><img style="border:solid rgb(26,1,114);" src="/images/mumbai.webp" class="img-thumbnail" alt="..."></a>
+                    <h4>Mumbai</h4>
+                    </div>
+                    <div class="col">
+                    <a href="project.html"><img style="border:solid rgb(26,1,114);" src="/images/New delhi.webp" class="img-thumbnail" alt="..."></a>
+                    <h4>Delhi</h4>
+                    </div> 
+                    <div class="col">
+                    <a href="project.html"><img style="border:solid rgb(26,1,114);" src="/images/hyderabad.webp" class="img-thumbnail" alt="..."></a>
+                    <h4>Hyderabad</h4>
+                    </div>
+                    <div class="col">
+                    <a href="project.html"><img style="border:solid rgb(26,1,114);" src="/images/jaipur.webp" class="img-thumbnail" alt="..."></a>
+                    <h4>Jaipur</h4>
+                    </div>
+                    <div class="col">
+                    <a href="project.html"><img style="border:solid rgb(26,1,114);" src="/images/udaipur.webp" class="img-thumbnail" alt="..."></a>
+                    <h4>Udaipur</h4>
+                    <br>
+                    </div>
+                </div>
+                </div>
+            </section>
+             <div style="padding-left: 5%; ">
+                <h2><b>Homes guests love</b></h2>
+             </div>
+             <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-left:6% ;margin-right: 4%; ">
+              <div class="col">
+                <div class="card">
+                  <a href="project.html"><img src="/images/gsts1.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">7 season appartments budapest</h5>
+                    <p class="card-text">Starting from ₹ 9,367</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <a href="project.html"><img src="/images/gsts2.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Oriente Palace Appartments</h5>
+                    <p class="card-text">Starting from ₹ 5,545</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <a href="project.html"><img src="/images/resorts.jpeg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">numa i Vita Appartments</h5>
+                    <p class="card-text">Starting from ₹ 6,655</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                 <a href="project.html"><img src="/images/gsts4.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Aparthotel Stare Miasto</h5>
+                    <p class="card-text">Starting from ₹ 8,337</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <a href="project.html"><img src="/images/pexels-kelly-2869215.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Prague Residences</h5>
+                    <p class="card-text">Starting from ₹ 10,478</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <a href="project.html"><img src="/images/gsts3.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Baranova Appartments</h5>
+                    <p class="card-text">Starting from ₹ 7,227</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="Subscribe">
+              <h3 id="save"> Save time, save money!</h3>
+              <h12>Sign up and we'll send the best deals to you</h12><br>
+              <br>
+               <input style="width:30%; height: 40px;" type="email" placeholder="Your email"> 
+              <input style="height:40px; font-weight: bold;" type="button"value="Subscribe"><br>
+            <p>Send me a link to get the FREE HotelsTonight app!<br><input type="checkbox"></p>
+            </div>
+            <hr>         
+               <div class="row" style="margin-left:10% ; ">
+            <div class="col-md-2">
+              <h7>Top destinations</h7>
+              <ul id="name">
+                <li><a href="">Hotels in Dubai</a></li>
+                <li><a href="">Hotels in Paris</a></li>
+                <li><a href="">Hotels in London</a></li>
+                <li><a href="">Hotels in Mumbai</a></li>
+                <li><a href="">Hotels in New York</a></li>
+                <li><a href="">Hotels in Bangkok</a></li>
+                <li><a href="">Hotels in New Delhi</a></li>
+                <li><a href="">Hotels in Singapore </a></li>
+                <li><a href="">Hotels in Hyderabad</a></li>
+                <li><a href="">Hotels in Bengaluru</a></li>
+                <li><a href="">Hotels in Kolkata</a></li> 
+                <li><a href="">Hotels in Jaipur</a></li>
+                <li><a href="">Hotels in Istanbul</a></li>
+                <li><a href="">Hotels in Pune</a></li>
+                <li><a href="">Hotels in Chennai</a></li>
+                <li><a href="">Hotels in Hong Kong</a></li>
+                <li><a href="">Hotels in Rome</a></li>
+                <li><a href="">Hotels in Las Vegas</a></li> 
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <h7>Top countries & regions</h7>
+              <ul>
+                <li><a href="">Hotels in Maldives</a></li>
+                <li><a href="">Hotels in Singapur</a></li>
+                <li><a href="">Hotels in Mauritius</a></li>
+                <li><a href="">Hotels in Srilanka</a></li>
+                <li><a href="">Hotels in Wayanad </a></li>
+                <li><a href="">Hotels in India</a></li>
+                <li><a href="">Hotels in New Delhi</a></li>
+                <li><a href="">Hotels in Mumbai </a></li>
+                <li><a href="">Hotels in Hyderabad</a></li>
+                <li><a href="">Hotels in Bengaluru</a></li>  
+            </div>
+            <div class="col-md-2">
+              <h7>Support & FAQs</h7>
+              <ul>
+                <li><a href="Project.html">Your bookings</a></li>
+                <li><a href="Project.html">FAQs</a></li>
+                <li><a href="Project.html">Contact us</a></li>
+                <li><a href="Project.html">Review a property</a></li>
+                </ul>
+            </div>    
+            <div class="col-md-2">
+              <h7>Policies</h7>
+              <ul>
+                <li><a href="Project.html">Terms & Conditions</a></li>
+                <li><a href="Project.html">Privacy</a></li>
+                <li><a href="Project.html">Cookies</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+              <h7>Other information</h7>
+              <ul>
+                <li><a href="Project.html">About us</a></li>
+                <li><a href="Project.html">Offers</a></li>
+                <li><a href="">News</a></li>
+                </ul>
+            </div> 
+               </div> 
+          
+    </body>
+</html>

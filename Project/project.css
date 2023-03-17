@@ -1,0 +1,159 @@
+
+.navbar-brand{
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 10%;
+    }
+    
+    
+        
+    
+    #b1{
+        margin-left: 50%;
+        margin-top: 10%;
+        display: block;
+        font-weight: bold;
+        color: white;}
+    label{
+     margin-left: 40%;
+     box-sizing: border-box;
+     text-decoration: none;
+     background-color: none;    
+    }
+        
+    
+    .offcanvas-body{
+        
+        background: linear-gradient(135deg,#221a35,#053041);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: x-large;
+     
+    }
+    .offcanvas-header{
+       
+        background: linear-gradient(135deg,#161616,#0c0c0c);
+       
+    }
+    .div1{
+        margin-top: 3.5%;
+        padding-left: 6%;
+        background: linear-gradient(135deg,#272038,#095574);
+        padding-top: 4%;
+     
+    }
+    #find{
+    
+        font-size: xxx-large;
+        font-weight: bold;
+        color: white;
+        
+    }
+    #s1{
+        
+        font-size: x-large;
+        color: white;
+    }
+
+    
+    .booking{
+        
+        background: linear-gradient(135deg,#232052,#223058);
+        
+        
+    }
+    .input-group{
+        margin-bottom: 1.5rem;
+    }
+    .input-label{
+        display: block;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        color: rgb(250, 244, 244);
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    .input,
+    .options{
+        outline: none;
+        border: none;
+        width: 100%;
+        min-height: 8px;
+        padding: 0.5rem;
+        font-weight: bold;
+        color:rgb(18, 17, 19);
+        letter-spacing: 2px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+     .btn-warning{
+        width: 30%;
+        margin-left: 31%;
+        margin-bottom: 6%;
+        
+    }
+    
+    
+    /* hotel head */
+    .selection-h{
+        margin-left: 5%;
+        font-weight: 900;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 350%;
+        margin-top: 2%;
+        color: rgb(14, 13, 13);
+    
+    
+    }
+    .div12{
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    
+    
+    
+     .explore{
+        background: linear-gradient(135deg,#048ce7,#2e023f);
+        color: rgb(252, 249, 249);
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+       
+     }
+     .explore-head{
+        font-weight: 900;
+        font-size:350% ;
+        padding-left: 5%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+     }
+     .selection-2{
+        margin-left: 9%;
+        font-weight: 600;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 250%;
+        margin-top: 2%;
+        color: rgb(14, 13, 13);
+    
+     }
+    
+     
+    /* footer */
+
+     
+    .Subscribe{
+        text-align: center;
+        background-color:#00224f;
+        color: white;
+        margin-left: 14%;
+        margin-right: 14%;
+        margin-top: 7%;
+    }
+     
+.row  a {
+    text-decoration: none;
+    color: black;
+
+}
+
+

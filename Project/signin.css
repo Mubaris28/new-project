@@ -1,0 +1,37 @@
+body{
+    
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    
+}
+div.container{
+    width: 40%;
+    height: 70%;
+    background:rgb(224, 221, 221);
+    padding: 25px 30px ;
+    border-radius: 5px;
+}
+.container .title{
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 30%;
+    
+    
+}
+#all{
+    margin-left: 10%;
+}
+.button{
+
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.signin-register{
+    margin-left: 10%;
+}
+
